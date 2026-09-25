@@ -1,0 +1,57 @@
+# Phase 4 – Project Planning
+
+## Project Title
+
+**Streamlining IT Procurement: Automating Standard Laptop Orders with Flow Designer**
+
+## Project Milestones
+
+### Milestone 1 – Flow
+
+Create the Flow required to automatically create a Catalog Task for the Standard Laptop request.
+
+Activities:
+
+1. Open Flow Designer.
+2. Create a new Flow.
+3. Name the Flow "Standard laptop task".
+4. Set Application to Global.
+5. Set Run User to System user.
+6. Add the Service Catalog trigger.
+7. Add the Create Catalog Task action.
+8. Configure the Catalog Task.
+9. Save the Flow.
+10. Activate the Flow.
+
+### Milestone 2 – Flow Assignment
+
+Connect the created Flow to the Standard Laptop Service Catalog item.
+
+Activities:
+
+1. Open Maintain Items.
+2. Find Standard Laptop.
+3. Open Process Engine.
+4. Remove the existing automation as required.
+5. Add the created Flow.
+6. Save the record.
+
+### Milestone 3 – Service Catalog
+
+Test the automated process.
+
+Activities:
+
+1. Open Service Catalog.
+2. Open Hardware.
+3. Select Standard Laptop.
+4. Place the order.
+5. Open the Request Number.
+6. Approve the request.
+7. Open the Requested Item.
+8. Open the Catalog Task.
+9. Verify the task details.
+
+## Planned Final Result
+
+The final result should be a Catalog Task with the required short description and Hardware assignment.
