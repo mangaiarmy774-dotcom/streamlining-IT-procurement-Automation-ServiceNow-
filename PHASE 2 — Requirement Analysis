@@ -1,0 +1,57 @@
+# Phase 2 – Requirement Analysis
+
+## Project Title
+
+**Streamlining IT Procurement: Automating Standard Laptop Orders with Flow Designer**
+
+## 1. Functional Requirements
+
+The system should:
+
+1. Provide a Standard Laptop item through the Service Catalog.
+2. Trigger the automation through the Service Catalog.
+3. Create a Catalog Task automatically.
+4. Use the Requested Item Record for the Catalog Task.
+5. Set the task short description to:
+   "Laptop need to Configured"
+6. Set the description to:
+   "Laptop need to Configured"
+7. Assign the task to the Hardware group.
+8. Set the approval value to Approved.
+9. Allow the generated Catalog Task to be verified after the request is approved.
+
+## 2. Process Requirements
+
+The project requires the following process:
+
+- A Standard Laptop request is placed.
+- The request is approved.
+- The configured Flow runs.
+- A Catalog Task is created.
+- The task is assigned to Hardware.
+- The task contains the required laptop configuration description.
+
+## 3. ServiceNow Components
+
+The project uses:
+
+- ServiceNow
+- Flow Designer
+- Service Catalog
+- Standard Laptop catalog item
+- Create Catalog Task action
+- Requested Item Record
+- Catalog Task
+
+## 4. Expected Output
+
+The expected output is a Catalog Task containing:
+
+- Short description: Laptop need to Configured
+- Description: Laptop need to Configured
+- Assignment group: Hardware
+- Approval: Approved
+
+## 5. Requirement Summary
+
+The requirements are designed to automate the configuration task associated with a Standard Laptop request and reduce manual intervention in the IT procurement process.
