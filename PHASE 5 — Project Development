@@ -1,0 +1,62 @@
+# Phase 5 – Project Development
+
+## Project Title
+
+**Streamlining IT Procurement: Automating Standard Laptop Orders with Flow Designer**
+
+## 1. Flow Creation
+
+A Flow named:
+
+**Standard laptop task**
+
+was created in ServiceNow Flow Designer.
+
+The Application was set to:
+
+**Global**
+
+The Run User was set to:
+
+**System user**
+
+## 2. Trigger Configuration
+
+A **Service Catalog** trigger was added to the Flow.
+
+## 3. Action Configuration
+
+The following action was added:
+
+**Create Catalog Task**
+
+The Requested Item Record was used as the Request item.
+
+The table was populated as:
+
+**Catalog Task**
+
+## 4. Catalog Task Configuration
+
+The following values were configured:
+
+| Field | Value |
+|---|---|
+| Short Description | Laptop need to Configured |
+| Description | Laptop need to Configured |
+| Assignment Group | Hardware |
+| Approval | Approved |
+
+## 5. Flow Activation
+
+After configuring the action, the Flow was saved and activated.
+
+## 6. Flow Assignment
+
+The Flow was connected to the Standard Laptop catalog item through:
+
+**Maintain Items → Standard Laptop → Process Engine**
+
+## 7. Development Result
+
+The Standard Laptop catalog item was connected to the automated Flow so that the configuration task could be generated through the defined process.
