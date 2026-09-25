@@ -1,0 +1,80 @@
+# Phase 3 – Project Design
+
+## Project Title
+
+**Streamlining IT Procurement: Automating Standard Laptop Orders with Flow Designer**
+
+## 1. System Workflow
+
+The project is designed around the following workflow:
+
+User
+  ↓
+Service Catalog
+  ↓
+Standard Laptop
+  ↓
+Order Request
+  ↓
+Approval
+  ↓
+Flow Designer
+  ↓
+Create Catalog Task
+  ↓
+Hardware Assignment
+  ↓
+Laptop Configuration
+
+## 2. Flow Design
+
+### Flow Name
+
+**Standard laptop task**
+
+### Application
+
+**Global**
+
+### Run User
+
+**System user**
+
+## 3. Trigger
+
+The Flow uses:
+
+**Service Catalog**
+
+as its trigger.
+
+## 4. Action
+
+The Flow uses:
+
+**Create Catalog Task**
+
+as its action.
+
+## 5. Catalog Task Design
+
+The Catalog Task uses the Requested Item Record.
+
+The task is configured with:
+
+- Short description: Laptop need to Configured
+- Description: Laptop need to Configured
+- Assignment group: Hardware
+- Approval: Approved
+
+## 6. Catalog Item Integration
+
+The Flow is assigned to the:
+
+**Standard Laptop**
+
+Service Catalog item through the Process Engine configuration.
+
+## 7. Design Objective
+
+The design connects the Standard Laptop request with an automated Catalog Task so that the Hardware team receives the configuration task after the request is approved.
