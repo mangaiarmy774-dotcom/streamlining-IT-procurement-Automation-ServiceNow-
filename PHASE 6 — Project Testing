@@ -1,0 +1,64 @@
+# Phase 6 – Project Testing
+
+## Project Title
+
+**Streamlining IT Procurement: Automating Standard Laptop Orders with Flow Designer**
+
+## 1. Testing Objective
+
+The purpose of testing was to verify that the Standard Laptop request successfully triggered the configured Flow and generated the required Catalog Task.
+
+## 2. Test Procedure
+
+### Step 1
+Open Service Catalog.
+
+### Step 2
+Open Hardware.
+
+### Step 3
+Select Standard Laptop.
+
+### Step 4
+Click Order Now.
+
+### Step 5
+Open the generated Request Number.
+
+### Step 6
+Open the Approvers section.
+
+### Step 7
+Approve the request.
+
+### Step 8
+Open the Requested Item.
+
+### Step 9
+Open the Catalog Tasks section.
+
+### Step 10
+Open the generated Catalog Task.
+
+## 3. Test Result
+
+The test generated a Catalog Task for the Standard Laptop request.
+
+The generated task had:
+
+**Catalog Task:** SCTASK00010001
+
+**Short Description:**
+Laptop need to Configured
+
+The request was associated with:
+
+**Requested Item:** RITM0010001
+
+## 4. Verification
+
+The Catalog Task was checked to verify the required task information and Hardware assignment.
+
+## 5. Testing Conclusion
+
+The testing demonstrated that the Standard Laptop request could proceed through the configured ServiceNow automation and generate the required Catalog Task.
