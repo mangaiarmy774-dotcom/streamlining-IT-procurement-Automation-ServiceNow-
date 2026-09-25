@@ -1,0 +1,60 @@
+# Phase 7 – Project Documentation
+
+## Project Title
+
+**Streamlining IT Procurement: Automating Standard Laptop Orders with Flow Designer**
+
+## Project Summary
+
+This project implements an automated workflow for standard laptop procurement using ServiceNow Flow Designer.
+
+## Problem
+
+Standard laptop requests can require manual configuration tasks, which may result in delays and additional manual effort.
+
+## Solution
+
+A Flow was created to automate the creation of a Catalog Task after the Standard Laptop request is processed.
+
+## Flow
+
+**Flow Name:** Standard laptop task
+
+**Trigger:** Service Catalog
+
+**Action:** Create Catalog Task
+
+## Catalog Task
+
+The Catalog Task is configured with:
+
+- Short description: Laptop need to Configured
+- Description: Laptop need to Configured
+- Assignment group: Hardware
+- Approval: Approved
+
+## Service Catalog Integration
+
+The Flow was assigned to the Standard Laptop catalog item through the Process Engine.
+
+## Testing
+
+A Standard Laptop order was placed through the Service Catalog. The request was approved and the resulting Catalog Task was checked.
+
+## Final Result
+
+The automation generated the required Catalog Task for laptop configuration and associated it with the Hardware team.
+
+## Project Benefits
+
+The project is intended to:
+
+- Reduce manual intervention.
+- Reduce potential errors.
+- Improve task allocation.
+- Reduce user waiting time.
+- Improve IT procurement efficiency.
+
+## Conclusion
+
+The ServiceNow Flow Designer automation provides a streamlined process for handling standard laptop configuration tasks and supports more efficient IT procurement operations.
