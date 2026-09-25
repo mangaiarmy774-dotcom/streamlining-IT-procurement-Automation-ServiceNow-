@@ -1,0 +1,76 @@
+# Phase 8 – Project Demonstration
+
+## Project Title
+
+**Streamlining IT Procurement: Automating Standard Laptop Orders with Flow Designer**
+
+## Demonstration Objective
+
+The demonstration shows how the ServiceNow Flow Designer automation processes a Standard Laptop request and creates the required Catalog Task.
+
+## Demonstration Flow
+
+### 1. Introduction
+
+Introduce the project:
+
+**"Streamlining IT Procurement: Automating Standard Laptop Orders with Flow Designer."**
+
+Explain that the project automates the configuration task associated with Standard Laptop requests.
+
+### 2. Show the Flow
+
+Demonstrate the Flow:
+
+**Standard laptop task**
+
+Show:
+
+- Flow name
+- Service Catalog trigger
+- Create Catalog Task action
+- Task configuration
+
+### 3. Show the Catalog Item
+
+Navigate to:
+
+**Service Catalog → Hardware → Standard Laptop**
+
+Show that the Standard Laptop catalog item is connected to the Flow.
+
+### 4. Place the Request
+
+Click:
+
+**Order Now**
+
+to place a Standard Laptop request.
+
+### 5. Approve the Request
+
+Open the Request Number and approve the request.
+
+### 6. Show the Generated Task
+
+Open the Requested Item and navigate to:
+
+**Catalog Tasks**
+
+Open the generated Catalog Task.
+
+### 7. Show the Final Output
+
+Demonstrate:
+
+- Catalog Task
+- Short description: Laptop need to Configured
+- Assignment group: Hardware
+
+## Project Benefits
+
+The demonstration should explain that the automation reduces manual intervention and helps ensure that laptop configuration tasks are generated and assigned as part of the procurement process.
+
+## Demo Video
+
+The completed demonstration video will be uploaded to Google Drive and the public/Anyone-with-the-link viewing link will be submitted with the project.
