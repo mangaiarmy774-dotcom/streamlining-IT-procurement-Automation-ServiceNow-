@@ -1,0 +1,70 @@
+# Phase 1 – Brainstorming & Ideation
+
+## Project Title
+
+**Streamlining IT Procurement: Automating Standard Laptop Orders with Flow Designer**
+
+## 1. Introduction
+
+The project focuses on improving the IT procurement process for standard laptop requests using ServiceNow Flow Designer.
+
+The idea was developed around the need to reduce manual intervention when standard laptops require configuration after being requested.
+
+## 2. Problem Identification
+
+The existing process for handling standard laptop requests can involve manual work. Standard laptop requests require configuration, and this step can be delayed or overlooked.
+
+This can result in:
+
+- Delays in laptop configuration
+- Increased manual work for the IT department
+- Inefficient allocation of IT resources
+- Increased waiting time for users
+
+## 3. Proposed Idea
+
+The proposed solution is to automate the laptop configuration task using ServiceNow Flow Designer.
+
+The system should automatically create a Catalog Task after the relevant Service Catalog request is processed and approved.
+
+The task should be assigned to the Hardware team for laptop configuration.
+
+## 4. User Story
+
+**As a member of the IT procurement team, I want a streamlined process for ordering standard laptops so that tasks are automatically generated and assigned to the Hardware team for configuration.**
+
+This will help ensure that laptops are configured promptly and reduce manual intervention.
+
+## 5. Initial Workflow Idea
+
+The proposed workflow is:
+
+Standard Laptop Request
+        ↓
+Service Catalog
+        ↓
+Request Approval
+        ↓
+Flow Designer
+        ↓
+Create Catalog Task
+        ↓
+Assign to Hardware
+        ↓
+Laptop Configuration
+
+## 6. Expected Benefits
+
+The proposed automation is intended to:
+
+- Provide a smoother experience for users requesting standard laptops.
+- Reduce manual intervention.
+- Reduce potential errors.
+- Improve task allocation.
+- Improve efficiency in IT procurement.
+
+## 7. Conclusion
+
+The brainstorming phase identified the need to automate the standard laptop procurement and configuration process.
+
+The proposed solution is to use ServiceNow Flow Designer to automatically generate and assign a configuration task to the Hardware team.
